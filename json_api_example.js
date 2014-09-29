@@ -6,7 +6,7 @@
   var FoxxGenerator = require('foxx_generator').Generator,
     generator;
 
-  generator = new FoxxGenerator('example', {
+  generator = new FoxxGenerator('json_api_example', {
     mediaType: 'application/vnd.api+json',
     applicationContext: applicationContext,
   });
